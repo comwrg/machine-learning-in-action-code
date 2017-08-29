@@ -2,10 +2,7 @@
 """
 trees
 ~~~~~
-god only knows
-:time: 2017/08/21 22:17
-:copyright: (c) 2017 by comwrg.
-:license: MIT, see LICENSE for more details.
+copy from *machine learning in action*
 """
 
 from math import log
