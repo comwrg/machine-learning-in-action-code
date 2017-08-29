@@ -80,8 +80,8 @@ def createTrees(dataSet, labels):
     myTree = {bestFeatLabel:{}}
     del(labels[bestFeat])
     featValues = [example[bestFeat] for example in dataSet]
-    uniquevals = set(featValues)
-    for value in uniquevals:
+    uniqueVals = set(featValues)
+    for value in uniqueVals:
         subLabels = labels[:]
         myTree[bestFeatLabel][value] = createTrees(splitDataSet(dataSet, bestFeat, value), subLabels)
     return myTree
